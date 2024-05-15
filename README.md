@@ -21,6 +21,8 @@ This part contains the code for deploying the trained network in a C++ project t
 
 Please read the README file in *dataAndModel* folder for more details.
 
+### 🔴 IMPORTANT about data downloading❗🔴
+The current data hosting is broken, we are working on it to find more permanent alternative places. Hopefull, we can make it alive soon.
 
 ## Citation
 If you use our code or model, please cite our paper:
@@ -41,5 +43,5 @@ If you use our code or model, please cite our paper:
  
  
 ## Contact
-Any question you could contact Changjian Li (chjili2011@gmail.com) or Hao Pan (haopan@microsoft.com) for help.
+Any questions you could contact Changjian Li (chjili2011@gmail.com) or Hao Pan (haopan@microsoft.com) for help.
 
