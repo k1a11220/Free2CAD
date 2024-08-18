@@ -19,9 +19,13 @@ from abc import abstractmethod
 from typing import Iterator, Optional
 import numpy as np
 
-from libs import decode_aeblock
-from libs import decode_gpregblock
+import sys
+import os
 
+# Add the networkTraining directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from networkTraining.libs import decode_aeblock, decode_gpregblock
 # network logger initialization
 import logging
 
